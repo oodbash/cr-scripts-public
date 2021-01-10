@@ -16,11 +16,11 @@ sl C:\PED\SCRIPTS\
 
 DISABLE old EA/DA/Tier0 admin user accounts (to be replaced by new Tier 0 accounts later)
 
-.\DisableUsers.ps1 -csv C:\ped\oodba_will_be_permanently_disabled.csv
+.\DisableUsers.ps1 -csv C:\ped\csv\oodba_will_be_permanently_disabled.csv
 
-.\DisableUsers.ps1 -csv C:\ped\oodba_will_be_renamed.csv
+.\DisableUsers.ps1 -csv C:\ped\csv\oodba_will_be_renamed.csv
 
-.\DisableUsers.ps1 -csv C:\ped\oodba_will_be_recreated.csv -rename
+.\DisableUsers.ps1 -csv C:\ped\csv\oodba_will_be_recreated.csv -rename
 
 DISABLE all accounts which will have password reset later (coordinated with service account owners)
 
