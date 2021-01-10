@@ -72,7 +72,7 @@ Copy-Item C:\PED\SCRIPTS\New_Passwords.csv C:\ped\CSVs\oodba_new_passwords.csv
 
 Enable Tier 0 service accounts
 
-import-csv C:\PED\CSVs\oodba_disable_before_reset_pass.csv | %{set-aduser $_.name -Enabled:$true}
+import-csv C:\PED\CSVs\oodba_reset_pass.csv | %{set-aduser $_.name -Enabled:$true}
 
 Remove all temporary accounts and permissions
 
